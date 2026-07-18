@@ -6,4 +6,4 @@ bionic control system prototype
 - ML for activity recognition
 - vector of 3 DoF
 - more myo-sensors --> more DoF
-- DoF must be multitreaded. For example, fingers must moving synchronously. Need to use RTOS
+- DoF must be multitreaded. For example, fingers must moving synchronously. Need to use RTOS or superloop will be enough?
