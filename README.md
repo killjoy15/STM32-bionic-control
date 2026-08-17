@@ -1,19 +1,17 @@
 # bionic-control
 
-Этот код реализует управление мотором с удержанием кнопки:
+This code implements motor control based on button presses:
 
-Кнопка 1 (PA0): мотор вращается вперед, пока кнопка нажата
+Button 1 (PA0): motor rotates forward while the button is pressed
 
-Кнопка 2 (PA1): мотор вращается назад, пока кнопка нажата
+Button 2 (PA1): motor rotates backward while the button is pressed
 
-Обе кнопки отпущены: мотор остановлен
+Both buttons released: motor stopped
 
-Код включает антидребезг для предотвращения ложных срабатываний и полностью готов к использованию в STM32CubeIDE.
+The code includes debouncing to prevent false triggers and is ready for use in STM32CubeIDE.
 
 
-Настройка в STM32CubeMX:
-
-GPIO Configuration:
+STM32CubeMX GPIO Configuration:
 
 PA0 - GPIO_Input (Button 1) - Pull-up
 
