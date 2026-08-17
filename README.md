@@ -12,10 +12,15 @@
 
 
 Настройка в STM32CubeMX:
+
 GPIO Configuration:
 
 PA0 - GPIO_Input (Button 1) - Pull-up
+
 PA1 - GPIO_Input (Button 2) - Pull-up
+
 PB0 - GPIO_Output (Motor IN1) - Push-Pull
+
 PB1 - GPIO_Output (Motor IN2) - Push-Pull
+
 PB2 - GPIO_Output (Motor Enable) - Push-Pull
