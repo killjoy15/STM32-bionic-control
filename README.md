@@ -20,8 +20,8 @@ Simple motor control with two buttons on STM32.
 
 ## Usage
 
-1. Open project in STM32CubeIDE
-2. Replace your src/main.c file with that one
+1. Open your project in STM32CubeIDE
+2. Replace src/main.c file with that one
 3. Connect motor driver
 4. Build and flash to your board
 5. Press and hold buttons to control motor
