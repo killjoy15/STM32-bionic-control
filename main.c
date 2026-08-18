@@ -15,7 +15,7 @@
 #define MOTOR_ENABLE_PIN   GPIO_PIN_2
 #define MOTOR_ENABLE_PORT  GPIOB
 
-#define DEBOUNCE_DELAY     20  // Задержка антидребезга в мс
+#define DEBOUNCE_DELAY     20  // debounce delay in milliseconds
 
 // Global variables for debouncing
 volatile uint32_t last_press_time = 0;
