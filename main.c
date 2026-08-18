@@ -151,6 +151,10 @@ void SystemClock_Config(void)
 void Error_Handler(void)
 {
     __disable_irq();
+    for (volatile uint32_t i = 0; i < 1000000; i++);
+    
+    // Reset MCU
+    NVIC_SystemReset();
     while (1)
     {
     }
